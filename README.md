@@ -19,10 +19,10 @@ This tutorial shows the implementation of Active Directory within Azure Virtual 
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Install Active Directory
+- Step 2: Create a Domain Admin User with the Domain
+- Step 3: Join the Client to the Domain
+- Step 4: Setup Group Policy for non-administrative users
 
 <h2>Deployment and Configuration Steps</h2>
 
