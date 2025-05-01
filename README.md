@@ -16,7 +16,7 @@ This tutorial shows the implementation of Active Directory within Azure Virtual 
 - Windows Server 2022
 - Windows 10 (22H2)
 
-<h2>Deployment and Configuration Steps</h2>
+<h2> High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: Install Active Directory
 - Step 2: Create a Domain Admin User with the Domain
