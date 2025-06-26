@@ -99,7 +99,7 @@ Now select change, click the Member Of tab and type mydomain.com and click ok, a
 
 <img width="915" alt="Screenshot 2025-04-22 at 2 39 45 PM" src="https://github.com/user-attachments/assets/817afb25-8fe1-4904-a5c5-4e2910e4eb92" />
 
-Log into the domain VM. In the search bar type group and click Group Policy Management. I named the group policy, RDP access for Domain Users and select ok.
+Log into the domain VM. In the search bar type group and click Group Policy Management. 
 
 <img width="907" alt="Screenshot 2025-04-22 at 2 44 13 PM" src="https://github.com/user-attachments/assets/ff690412-7cdd-40c8-9173-67c7a7e75355" />
 
@@ -111,7 +111,7 @@ Right click and select New and Local Group.
 
 <img width="697" alt="Screenshot 2025-04-22 at 2 49 30 PM" src="https://github.com/user-attachments/assets/a96a62ab-2812-4cf1-8f9e-5d5fc12ed6f0" />
 
-Make sure the action is Update. For the Group Name select Remote Desktop Users (built-in) and give it a description.
+Make sure the action is Update. For the Group Name select Remote Desktop Users (built-in) and give it a description. I named the group policy, RDP access for Domain Users and select ok.
 
 <img width="631" alt="Screenshot 2025-04-22 at 2 54 33 PM" src="https://github.com/user-attachments/assets/312a99bc-e20c-4fab-9cf1-e2a913453e9b" />
 
