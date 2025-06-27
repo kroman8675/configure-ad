@@ -103,7 +103,7 @@ Log into the domain VM. In the search bar at the bottom type group and click Gro
 
 <img width="907" alt="Screenshot 2025-04-22 at 2 44 13 PM" src="https://github.com/user-attachments/assets/ff690412-7cdd-40c8-9173-67c7a7e75355" />
 
-Right click on the group policy we just created and select edit. Click Computer Configuration > Preferences > Control Panel Settings > Local Users and Groups.
+Create a group policy object under our domain name, mydomain.com Right click it and select edit. Click Computer Configuration > Preferences > Control Panel Settings > Local Users and Groups.
 
 <img width="760" alt="Screenshot 2025-04-22 at 2 45 43 PM" src="https://github.com/user-attachments/assets/73188c4f-4fe0-40a5-944d-82acba9002a4" />
 
@@ -111,7 +111,7 @@ Right click and select New and Local Group.
 
 <img width="697" alt="Screenshot 2025-04-22 at 2 49 30 PM" src="https://github.com/user-attachments/assets/a96a62ab-2812-4cf1-8f9e-5d5fc12ed6f0" />
 
-Make sure the action is Update. For the Group Name select Remote Desktop Users (built-in) and give it a description. I named the group policy, RDP access for Domain Users and select ok.
+Make sure the action is Update. For the Group Name select Remote Desktop Users (built-in) and give it a description. I named the group policy preference, RDP access for Domain Users and select ok.
 
 <img width="631" alt="Screenshot 2025-04-22 at 2 54 33 PM" src="https://github.com/user-attachments/assets/312a99bc-e20c-4fab-9cf1-e2a913453e9b" />
 
