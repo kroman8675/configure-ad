@@ -119,7 +119,7 @@ Click Add and the ... next to the name bar. Select ok, ok, apply, and then ok.
 
 <img width="700" alt="Screenshot 2025-04-22 at 2 55 08 PM" src="https://github.com/user-attachments/assets/058bb22c-148d-4998-8b59-e9c43a15d385" />
 
-Type Domain users and Check Names.
+Type Domain users and Check Names then select OK, apply, and then OK.
 
 <img width="582" alt="Screenshot 2025-04-22 at 3 12 41 PM" src="https://github.com/user-attachments/assets/0ac9a7f3-ce4a-4bc9-ae86-360a83f451cf" />
 
