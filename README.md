@@ -69,7 +69,7 @@ Right click the user you just created and select Properties.
 
 <img width="669" alt="Screenshot 2025-04-21 at 5 27 11 PM" src="https://github.com/user-attachments/assets/c608e183-62e3-4600-b769-0be2cd78a93c" />
 
-Click the Member Of tab and click Add. Type Domain Admins, select Check names, and select OK, apply, and OK.
+Click the Member Of tab and click Add. Type Domain Admins, select Check names, and select OK, apply, and then OK.
 
 <img width="430" alt="Screenshot 2025-04-21 at 5 37 20 PM" src="https://github.com/user-attachments/assets/6893aa68-ec44-4b5f-a755-9d5dcd54ed95" />
 
@@ -79,27 +79,27 @@ Now log out of the VM and log back in as the admin user we just created using th
 
 ![Screenshot 2025-04-21 at 8 06 53 PM](https://github.com/user-attachments/assets/41e782d5-f87b-49d9-abca-eb3483f6eac2)
 
-On the Microsoft Azure website go into the Client (Windows 10) VM. Select Networking settings and the virtual NIC.
+On the Microsoft Azure website go into the Client (Windows 10) VM. Select Networking settings and then the virtual network interface.
 
 <img width="1295" alt="Screenshot 2025-04-21 at 8 10 52 PM" src="https://github.com/user-attachments/assets/43dfa231-f26f-4773-95b9-7e17039d8b3d" />
 
-Click DNS Servers and choose custom. Type the Domain VMs private IP address and click save. Restart the Client VM and get logged into it using the admin credentials.
+Click DNS Servers on the side and then choose the custom option. Type the Domain VMs private IP address into the Add DNS Server space and click save. Restart the Client VM and get logged into it using the admin credentials.
 
 - Step 3: Join the Client to the Domain
 
 <img width="637" alt="Screenshot 2025-04-21 at 8 18 51 PM" src="https://github.com/user-attachments/assets/94103bec-a0e5-421e-9a23-3587ef6cd464" />
 
-Go to System in Settings and scroll down and click Rename this PC (advanced)
+Go to System in Settings then scroll down and click Rename this PC (advanced)
 
 <img width="721" alt="Screenshot 2025-04-21 at 8 22 59 PM" src="https://github.com/user-attachments/assets/c41f6580-25c4-4658-91e3-20c1f783d32e" />
 
-Now select change, click the Member Of tab and type mydomain.com and click ok, apply, and then ok. Then enter in the admin credentials. 
+Now select change, click the Member Of tab and type mydomain.com and click ok, apply, and then ok. Enter in the admin credentials. 
 
 - Step 4: Setup Group Policy for non-administrative users
 
 <img width="915" alt="Screenshot 2025-04-22 at 2 39 45 PM" src="https://github.com/user-attachments/assets/817afb25-8fe1-4904-a5c5-4e2910e4eb92" />
 
-Log into the domain VM. In the search bar type group and click Group Policy Management. 
+Log into the domain VM. In the search bar at the bottom type group and click Group Policy Management. 
 
 <img width="907" alt="Screenshot 2025-04-22 at 2 44 13 PM" src="https://github.com/user-attachments/assets/ff690412-7cdd-40c8-9173-67c7a7e75355" />
 
