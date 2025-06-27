@@ -31,7 +31,7 @@ This tutorial shows the implementation of Active Directory within Azure Virtual 
 
 <img width="539" alt="Screenshot 2025-04-21 at 3 54 16 PM" src="https://github.com/user-attachments/assets/6db2805e-0851-48bb-bb43-014f4b4ec053" />
 
-Get logged into the Domain (Windows Server) virtual machine. Next, go to Server Manager and click add roles and features.
+First let's get logged into the Domain (Windows Server) virtual machine. Next, go to Server Manager and click add roles and features.
 
 ![image](https://github.com/user-attachments/assets/9668cb37-c0ee-41a2-92a9-b3d5ae3e6b2d)
 
